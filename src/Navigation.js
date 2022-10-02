@@ -2,7 +2,7 @@ import Nav from 'react-bootstrap/Nav';
 
 function BasicExample() {
   return (
-    <Nav className="justify-content-end"
+    <Nav className="justify-content-end" color= "#64ffda"
       activeKey="/home"
       onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
     >
